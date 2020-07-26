@@ -36,13 +36,13 @@ source activate <my_environment> # where you installed the required packages lis
 python processing_dataset.py Clf <path_to_clf_data>\
 python processing_dataset.py Reg <path_to_reg_data>\
 python create_replications.py Clf 11000 500 <path_to_clf_data> # 11000 is the largest sample size\
-python create_replications.py Reg 11000 500 <path_to_reg_data> # 11000 is the largest sample size\
+python create_replications.py Reg 11000 500 <path_to_reg_data> # 11000 is the largest sample size
 
 Start a new Terminal and run the code below:\
 ./runAllExper.sh Clf 500 <path_to_res> <path_to_clf_data> 0\
 ./runAllExper.sh Reg 500 <path_to_res> <path_to_reg_data> 0 # change 0 to 1 if you want the LOOCV results\
 ./combineAllExper.sh Clf 500 <path_to_res>\
-./combineAllExper.sh Reg 500 <path_to_res>\
+./combineAllExper.sh Reg 500 <path_to_res>
 
 Use the Jupyter Notebook we provide for outputting plots.
 
