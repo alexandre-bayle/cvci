@@ -1,4 +1,4 @@
-#### This code accompanies the paper "Cross-validation Confidence Intervals for Test Error" by Pierre Bayle, Alexandre Bayle, Lucas Janson, and Lester Mackey.
+### This code accompanies the paper "Cross-validation Confidence Intervals for Test Error" by Pierre Bayle, Alexandre Bayle, Lucas Janson, and Lester Mackey.
 
 Required Python packages:
 - os
