@@ -4,7 +4,7 @@ This code accompanies the paper "Cross-validation Confidence Intervals for Test 
 
 All Python code was tested with Python 3.6.10. The bash scripts were run on a Linux-based operating system.
 
-To reproduce our Python environment, you can use the .yml file we provide by running:\
+To reproduce our Anaconda environment, you can use the .yml file we provide by running:\
 conda env create -f environment.yml
 
 Instructions to download datasets:
@@ -32,7 +32,7 @@ With the files provided, you can recover our plots by following the instructions
 Start a new Terminal and run the code below:\
 cd <path_to_folder_containing_the_scripts>\
 module load <my_Anaconda_installation>\
-source activate <my_environment> # where you installed the required packages listed earlier\
+source activate <my_environment>\
 python processing_dataset.py Clf <path_to_clf_data>\
 python processing_dataset.py Reg <path_to_reg_data>\
 python create_replications.py Clf 11000 500 <path_to_clf_data> # 11000 is the largest sample size\
