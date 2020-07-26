@@ -1,16 +1,11 @@
-## This code accompanies the paper "Cross-validation Confidence Intervals for Test Error" by Pierre Bayle, Alexandre Bayle, Lucas Janson, and Lester Mackey.
+## Cross-validation Confidence Intervals for Test Error
 
-Required Python packages:
-- os
-- sys
-- time
-- math
-- numpy
-- pandas
-- sklearn
-- scipy
-- xgboost
-- matplotlib
+This code accompanies the paper "Cross-validation Confidence Intervals for Test Error" by Pierre Bayle, Alexandre Bayle, Lucas Janson, and Lester Mackey.
+
+All Python code was tested with Python 3.6.10. The bash scripts were run on a Linux-based operating system.
+
+To reproduce our Python environment, you can use the .yml file we provide by running:
+conda env create -f environment.yml
 
 Instructions to download datasets:
 - for Higgs dataset, go to UCI repository (link in the References section of the paper) and download HIGGS.csv.gz
