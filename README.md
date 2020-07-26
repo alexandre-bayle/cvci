@@ -4,7 +4,7 @@ This code accompanies the paper "Cross-validation Confidence Intervals for Test 
 
 All Python code was tested with Python 3.6.10. The bash scripts were run on a Linux-based operating system.
 
-To reproduce our Python environment, you can use the .yml file we provide by running:
+To reproduce our Python environment, you can use the .yml file we provide by running:\n
 conda env create -f environment.yml
 
 Instructions to download datasets:
