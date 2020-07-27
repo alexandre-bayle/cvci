@@ -1,6 +1,6 @@
 ## Cross-validation Confidence Intervals for Test Error
 
-This code accompanies the paper "Cross-validation Confidence Intervals for Test Error" by Pierre Bayle, Alexandre Bayle, Lucas Janson, and Lester Mackey.
+This code accompanies the paper "Cross-validation Confidence Intervals for Test Error" by Pierre Bayle, Alexandre Bayle, Lucas Janson, and Lester Mackey. The paper can be found [here](https://arxiv.org/abs/2007.12671).
 
 All Python code was tested with Python 3.6.10. The bash scripts were run on a Linux-based operating system.
 
